@@ -1,47 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="insert.xsl"?>
 
-<Images>
+<art>
 
 
-    <picture1>
+    <site>
 
-        <id>001</id>
         <name>Arnolfini<name>
-        <artist>Jan van Eyck</artist>
         <location>The National Gallery</location>
-        <history>Made in 1434</history>
-        <description>The Arnolfini Portrait is a 1434 oil painting on oak panel by the Early Netherlandish 
-        painter Jan van Eyck. It forms a full-length double portrait, believed to depict the Italian merchant 
-        Giovanni di Nicolao Arnolfini and his wife, presumably in their residence at the Flemish city of Bruges.
-        </description>
+        <artist>Jan van Eyck</artist>
+        <history>
+            <year era='14cent'>1434</year>
+       </history>
 
-        <extraData1>2′ 8″ x 2′ 0″</extraData1>
-        <extraData2>Early Renaissance</extraData2>
-        <extraData3>Oil</extraData3>
+        <images>
+            <image size="thumb" type="jpeg">1</image>
+            <image size="large" type="jpeg">2</image>
+            <image size="full" type="jpeg">3</image>
+    
+        </image>
 
-    </picture1>
+        <links>
+
+        <overview type="general"
+        url="https://en.wikipedia.org/wiki/Arnolfini_Portrait">wikipedia
+        </overview>
+    
+
+        </links>
+
+    </site>
 
 
-   <picture2>
-
-        <id></id>
-        <name><name>
-        <artist></artist>
-        <location></location>
-        <history></history>
-        <description>
-        </description>
-
-        <extraData1></extraData1>
-        <extraData2></extraData2>
-        <extraData3></extraData3>
-
-    </picture2>
+  
 
 
 
-
-</Images>
+</art>
 
 
 <!-- The main part is the ID attribute this will allow anyone to locate a painting within a archive. 
